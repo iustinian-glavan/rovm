@@ -1,0 +1,50 @@
+{
+  "name": "vending-machine",
+  "version": "1.0.0",
+  "description": "virtual vending machine",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Iustinian Glavan",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "start": "webpack serve --hot --mode development"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.13.0",
+    "react-redux": "^7.2.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.2",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@hot-loader/react-dom": "^17.0.1+4.13.0",
+    "autoprefixer": "^10.2.1",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "postcss-loader": "^4.1.0",
+    "prettier": "^2.2.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.14.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
