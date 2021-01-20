@@ -12,6 +12,7 @@ import {
 } from "semantic-ui-react";
 
 import productImages from "../assets/productImages";
+import {addProduct, removeProduct} from "../store/product";
 
 const Slot = styled(Card)`
   background: transparent !important;
